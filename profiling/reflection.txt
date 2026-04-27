@@ -1,0 +1,1 @@
+The gprof report showed that approximately 64% of the runtime was spent in fib which is the majority of the runtime. I found this by checking the flat profile and looking for the function with the highest percentage of time. This also makes sense since in the code fib is recurisve and calls itself twice, fib(n-1) and fib(n-2), so it repeats calculations.
