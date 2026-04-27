@@ -2,7 +2,8 @@
 #include <cstdlib>
 #include <cstring>
 
-char* buf;
+char storage[100];
+char* buf = storage;
 
 int sum_to_n(int num) {
   int i, sum = 0;
